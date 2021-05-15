@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800');
+
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url(https://lh3.googleusercontent.com/8U_AI7kfgFuVQWPLqlj19Xf9Uv_HRWB-N66miGVeAbWT04rZ2ueakR0WtGaF80aPIFAQkmQ8vS-SVyyJa_HiusjUAjA=w640-h400-e365-rj-sc0x00ffffff);
+  background-size: cover;
+  min-height: 120vh;
+  display: flex;
+  font-weight: 400;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1,h2,h3,h4,h5,h2,h6,label,span {
+  font-weight: 500;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+body, html, .App, #root, .auth-wrapper {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-light {
+  background-color: white;
+  box-shadow: 0px 25px 100px rgba(7, 18, 230, 0.2);
+}
+
+.auth-wrapper {
+  display: flex;
+  justify-content: left;
+  flex-direction: column;
+  text-align: left;
+}
+
+.auth-inner {
+  width: 450px;
+  margin: auto;
+  background: white;
+  box-shadow: 0px 14px 200px rgba(34, 35, 58, 0.2);
+  padding: 50px 55px 45px 55px;
+  border-radius: 30px;
+  transition: all .3s;
+  color: black;
+}
+
+.auth-wrapper .form-control:focus {
+  border-color: lightblue;
+  box-shadow: white;
+}
+
+.auth-wrapper h3 {
+  text-align: center;
+  margin: 0;
+  line-height: 3.2;
+  padding-bottom: 20px;
+}
+
+.custom-control-label {
+  font-weight: 400;
+}
